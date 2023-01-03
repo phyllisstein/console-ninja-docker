@@ -6,6 +6,8 @@ Starting from a bare Create React App repo, I've ejected the app to ensure it's 
 
 As expected, running `yarn start` from a Visual Studio Code terminal connects Console Ninja.
 
+![](0001977NoVi19S.png)
+
 <details>
 <summary>
     <strong>Console Ninja trace log: outside container</strong>
