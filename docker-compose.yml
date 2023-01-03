@@ -4,7 +4,10 @@ services:
   app:
     image: node:16
     ports:
-      - '3000:3000'
+      - target: 3000
+        published: 3000
+        protocol: tcp
+        mode: host
     volumes:
       - type: bind
         source: .
